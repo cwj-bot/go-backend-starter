@@ -13,16 +13,13 @@ require (
 	github.com/go-openapi/jsonreference v0.19.0 // indirect
 	github.com/go-openapi/spec v0.19.0 // indirect
 	github.com/go-openapi/swag v0.19.0 // indirect
-	github.com/kr/pty v1.1.4 // indirect
 	github.com/mailru/easyjson v0.0.0-20190403194419-1ea4449da983 // indirect
 	github.com/mattn/go-isatty v0.0.8 // indirect
-	github.com/stretchr/objx v0.2.0 // indirect
+	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/swaggo/gin-swagger v1.1.0
 	github.com/swaggo/swag v1.5.0
 	github.com/ugorji/go v1.1.5-pre // indirect
-	golang.org/x/crypto v0.0.0-20190605123033-f99c8df09eb5 // indirect
 	golang.org/x/net v0.0.0-20190607181551-461777fb6f67 // indirect
-	golang.org/x/sys v0.0.0-20190609082536-301114b31cce // indirect
 	golang.org/x/text v0.3.2 // indirect
 	golang.org/x/tools v0.0.0-20190608022120-eacb66d2a7c3 // indirect
 	gopkg.in/ini.v1 v1.42.0
