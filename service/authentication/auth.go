@@ -10,6 +10,12 @@ type Auth struct {
 func (a *Auth) Check() (bool, error) {
 	userName := a.Username
 	passWord := a.Password
-	fmt.Println(userName, passWord)
-	return true, nil
+	ret := false
+	if userName == "cwj" && passWord == "123" {
+		ret = true
+		fmt.Println("login success")
+	} else {
+		fmt.Printf("login fail")
+	}
+	return ret, nil
 }

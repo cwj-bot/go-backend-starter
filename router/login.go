@@ -43,7 +43,7 @@ func Login(c *gin.Context) {
 	}
 
 	if !isExist {
-		appG.Response(http.StatusOK, consts.ERROR_AUTH, nil)
+		appG.Response(http.StatusOK, consts.ERROR_LOGIN_FAIL, nil)
 		return
 	}
 
